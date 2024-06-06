@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\LogViewer;
+namespace OpenAdminCore\Admin\LogViewer;
 
-use OpenAdmin\Admin\Extension;
+use OpenAdminCore\Admin\Extension;
 
 /**
  * Class LogViewer.

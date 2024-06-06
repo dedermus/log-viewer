@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\LogViewer;
+namespace OpenAdminCore\Admin\LogViewer;
 
 use Illuminate\Support\ServiceProvider;
 

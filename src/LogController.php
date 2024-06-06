@@ -1,11 +1,11 @@
 <?php
 
-namespace OpenAdmin\Admin\LogViewer;
+namespace OpenAdminCore\Admin\LogViewer;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use OpenAdmin\Admin\Facades\Admin;
-use OpenAdmin\Admin\Layout\Content;
+use OpenAdminCore\Admin\Facades\Admin;
+use OpenAdminCore\Admin\Layout\Content;
 
 class LogController extends Controller
 {

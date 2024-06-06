@@ -14,7 +14,7 @@ Log viewer for open-admin
 ## Installation
 
 ```
-$ composer require open-admin-ext/log-viewer
+$ composer require dedermus/log-viewer
 
 $ php artisan admin:import log-viewer
 ```

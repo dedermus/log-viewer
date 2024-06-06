@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\LogViewer;
+namespace OpenAdminCore\Admin\LogViewer;
 
-use OpenAdmin\Admin\Admin;
+use OpenAdminCore\Admin\Admin;
 
 trait BootExtension
 {
@@ -25,9 +25,9 @@ trait BootExtension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('logs', 'OpenAdmin\Admin\LogViewer\LogController@index')->name('log-viewer-index');
-            $router->get('logs/{file}', 'OpenAdmin\Admin\LogViewer\LogController@index')->name('log-viewer-file');
-            $router->get('logs/{file}/tail', 'OpenAdmin\Admin\LogViewer\LogController@tail')->name('log-viewer-tail');
+            $router->get('logs', 'OpenAdminCore\Admin\LogViewer\LogController@index')->name('log-viewer-index');
+            $router->get('logs/{file}', 'OpenAdminCore\Admin\LogViewer\LogController@index')->name('log-viewer-file');
+            $router->get('logs/{file}/tail', 'OpenAdminCore\Admin\LogViewer\LogController@tail')->name('log-viewer-tail');
         });
     }
 
